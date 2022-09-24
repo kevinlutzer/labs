@@ -1,0 +1,14 @@
+# -----------------------------------------------------------------------------
+#- Leds example for the iCE40-HX8K board
+#- Constraint file (.pcf)
+#- By Jesus Arroyo
+#- August - 2016
+#- GPL license
+# -----------------------------------------------------------------------------
+# --  Pinout:
+# --  Guide:
+
+# ------------ User Leds ------------------------------------------------------
+set_io  LED_BLUE  39
+set_io  LED_GREEN 40
+set_io  LED_RED  41
