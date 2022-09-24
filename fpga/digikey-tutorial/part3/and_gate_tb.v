@@ -1,18 +1,13 @@
 `define DUMPSTR(x) `"x.vcd`"
-`timescale 100 ns / 10 ns
+`timescale 1 ns / 10ps
 
 module and_gate_tb();
 
-//-- Simulation time: 1us (10 * 100ns)
-parameter DURATION = 10;
-
 //-- Leds port
-wire _LED;
-reg _BUT;
+wire [2:0] _LED;
+reg [1:0] _BUT;
 
-//-- Clock signal. It is not used in this simulation
-reg clk = 0;
-always #0.5 clk = ~clk;
+localparam DURATION = 1000;
 
 //-- Instantiate the unit to test
 and_gate UUT (
@@ -21,21 +16,20 @@ and_gate UUT (
          );
 
 initial begin
-
   // Time Changes
-  #5 _BUT = 1;
-  #5 _BUT = 0;
-  #5 _BUT = 1;
-  #5 _BUT = 0;
+  _BUT[0] = 0;
+  #10 _BUT[0] = 1;
+  #20 _BUT[0] = 0;
+  #30 _BUT[0] = 1;
+end
+
+initial begin
 
   $dumpfile(`DUMPSTR(`VCD_OUTPUT));
   $dumpvars(0, and_gate_tb);
 
-   #(DURATION) $display("End of simulation");
+  #(DURATION) $display("End of simulation");
   $finish;
 end
 
 endmodule
-
-
-# https://technobyte.org/testbench-in-verilog
