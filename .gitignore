@@ -1,0 +1,5 @@
+*.DS_store
+*hardware.bin
+*hardware.out
+*.vscode/
+*.venv/

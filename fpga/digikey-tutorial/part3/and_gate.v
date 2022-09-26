@@ -6,7 +6,6 @@ module and_gate(
     // Ouputs
     output wire [2:0] LED
 );
-
-    assign LED[0] = ~BUT[0];
+    assign LED[2:0] = 3'b0000;
 
 endmodule

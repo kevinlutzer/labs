@@ -1,5 +1,5 @@
 $date
-	Sat Sep 24 15:33:30 2022
+	Sun Sep 25 23:17:34 2022
 $end
 $version
 	Icarus Verilog
@@ -15,27 +15,67 @@ $var wire 2 # BUT [1:0] $end
 $var wire 3 $ LED [2:0] $end
 $upscope $end
 $upscope $end
+$scope module full_sum_tb $end
+$var wire 1 % _S $end
+$var wire 1 & _C_OUT $end
+$var reg 1 ' _A $end
+$var reg 1 ( _B $end
+$var reg 1 ) _C_IN $end
+$scope module UUT $end
+$var wire 1 ' A $end
+$var wire 1 * A_XOR_B $end
+$var wire 1 ( B $end
+$var wire 1 ) C_IN $end
+$var wire 1 & C_OUT $end
+$var wire 1 % S $end
+$upscope $end
+$upscope $end
 $enddefinitions $end
 #0
 $dumpvars
-bz1 $
+0*
+0)
+0(
+0'
+0&
+0%
+b0 $
 bx0 #
 bx0 "
-bz1 !
+b0 !
 $end
+#5000
+1%
+1)
 #10000
-bz0 !
-bz0 $
+1*
+0)
+1(
 bx1 "
 bx1 #
+#15000
+1&
+0%
+1)
+#20000
+0&
+1%
+0)
+0(
+1'
+#25000
+1&
+0%
+1)
 #30000
-bz1 !
-bz1 $
+0*
+0)
+1(
 bx0 "
 bx0 #
+#35000
+1%
+1)
 #60000
-bz0 !
-bz0 $
 bx1 "
 bx1 #
-#1000000
