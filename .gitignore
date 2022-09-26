@@ -3,3 +3,4 @@
 *hardware.out
 *.vscode/
 *.venv/
+*.code-workspace

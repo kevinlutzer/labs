@@ -1,0 +1,8 @@
+# LEDS
+set_io  led[0]  39
+set_io  led[1]  40
+set_io  led[2]  41
+
+# BUTTONS
+set_io -pullup yes but[0] 4# IOT_37A
+set_io -pullup yes but[1] 21 # IOT_36B
