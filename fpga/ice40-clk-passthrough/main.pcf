@@ -1,0 +1,6 @@
+# LED
+set_io  led  39
+
+# Clock
+set_io  clk 35 #ICE_CLK
+set_io  clk_out 13 #IOB_24A
