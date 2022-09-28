@@ -64,7 +64,7 @@
         }
       },
       "cells": {
-        "$specify$131": {
+        "$specify$126": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -95,7 +95,7 @@
             "SRC": [ 6 ]
           }
         },
-        "$specify$132": {
+        "$specify$127": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -126,7 +126,7 @@
             "SRC": [ 2 ]
           }
         },
-        "$specify$133": {
+        "$specify$128": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -157,7 +157,7 @@
             "SRC": [ 2 ]
           }
         },
-        "$specify$134": {
+        "$specify$129": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -188,7 +188,7 @@
             "SRC": [ 3 ]
           }
         },
-        "$specify$135": {
+        "$specify$130": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -219,7 +219,7 @@
             "SRC": [ 3 ]
           }
         },
-        "$specify$136": {
+        "$specify$131": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -250,7 +250,7 @@
             "SRC": [ 3 ]
           }
         },
-        "$specify$137": {
+        "$specify$132": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -281,7 +281,7 @@
             "SRC": [ 4 ]
           }
         },
-        "$specify$138": {
+        "$specify$133": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -312,7 +312,7 @@
             "SRC": [ 4 ]
           }
         },
-        "$specify$139": {
+        "$specify$134": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -343,7 +343,7 @@
             "SRC": [ 4 ]
           }
         },
-        "$specify$140": {
+        "$specify$135": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -374,7 +374,7 @@
             "SRC": [ 5 ]
           }
         },
-        "$specify$141": {
+        "$specify$136": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -405,7 +405,7 @@
             "SRC": [ 5 ]
           }
         },
-        "$specify$142": {
+        "$specify$137": {
           "hide_name": 1,
           "type": "$specify3",
           "parameters": {
@@ -442,7 +442,7 @@
             "SRC": [ 7 ]
           }
         },
-        "$specify$143": {
+        "$specify$138": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -473,7 +473,7 @@
             "SRC": [ 9 ]
           }
         },
-        "$specify$144": {
+        "$specify$139": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -508,7 +508,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$145": {
+        "$specify$140": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -543,7 +543,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$146": {
+        "$specify$141": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -578,7 +578,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$147": {
+        "$specify$142": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -613,7 +613,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$148": {
+        "$specify$143": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -648,7 +648,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$149": {
+        "$specify$144": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -683,7 +683,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$150": {
+        "$specify$145": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -718,7 +718,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$151": {
+        "$specify$146": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -753,7 +753,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$152": {
+        "$specify$147": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -788,7 +788,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$153": {
+        "$specify$148": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -823,7 +823,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$154": {
+        "$specify$149": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -858,7 +858,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$155": {
+        "$specify$150": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -893,7 +893,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$156": {
+        "$specify$151": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -928,7 +928,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$157": {
+        "$specify$152": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -963,7 +963,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$158": {
+        "$specify$153": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -998,7 +998,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$159": {
+        "$specify$154": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -1033,7 +1033,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$160": {
+        "$specify$155": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -1068,7 +1068,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$161": {
+        "$specify$156": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -1103,7 +1103,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$162": {
+        "$specify$157": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -1138,7 +1138,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$163": {
+        "$specify$158": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -1173,7 +1173,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$164": {
+        "$specify$159": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -1208,7 +1208,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$165": {
+        "$specify$160": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -6009,7 +6009,6 @@
     "SB_PLL40_CORE": {
       "attributes": {
         "blackbox": "00000000000000000000000000000001",
-        "cells_not_processed": "00000000000000000000000000000001",
         "src": "/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:2357.1-2385.10"
       },
       "parameter_default_values": {
@@ -6402,7 +6401,7 @@
         }
       },
       "cells": {
-        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1593$250": {
+        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1593$245": {
           "hide_name": 1,
           "type": "$logic_and",
           "parameters": {
@@ -6426,7 +6425,7 @@
             "Y": [ 78 ]
           }
         },
-        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1595$251": {
+        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1595$246": {
           "hide_name": 1,
           "type": "$logic_and",
           "parameters": {
@@ -6450,7 +6449,7 @@
             "Y": [ 79 ]
           }
         },
-        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1601$252": {
+        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1601$247": {
           "hide_name": 1,
           "type": "$logic_and",
           "parameters": {
@@ -6474,7 +6473,7 @@
             "Y": [ 80 ]
           }
         },
-        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1605$253": {
+        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1605$248": {
           "hide_name": 1,
           "type": "$logic_and",
           "parameters": {
@@ -6498,7 +6497,182 @@
             "Y": [ 81 ]
           }
         },
-        "$specify$100": {
+        "$specify$90": {
+          "hide_name": 1,
+          "type": "$specrule",
+          "parameters": {
+            "DST_PEN": "1",
+            "DST_POL": "1",
+            "DST_WIDTH": "00000000000000000000000000000001",
+            "SRC_PEN": "0",
+            "SRC_POL": "0",
+            "SRC_WIDTH": "00000000000000000000000000010000",
+            "TYPE": "$setup",
+            "T_LIMIT2_MAX": "00000000000000000000000000000000",
+            "T_LIMIT2_MIN": "00000000000000000000000000000000",
+            "T_LIMIT2_TYP": "00000000000000000000000000000000",
+            "T_LIMIT_MAX": "00000000000000000000000100010010",
+            "T_LIMIT_MIN": "00000000000000000000000100010010",
+            "T_LIMIT_TYP": "00000000000000000000000100010010"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1593.3-1593.51"
+          },
+          "port_directions": {
+            "DST": "input",
+            "DST_EN": "output",
+            "SRC": "input",
+            "SRC_EN": "output"
+          },
+          "connections": {
+            "DST": [ 32 ],
+            "DST_EN": [ 78 ],
+            "SRC": [ 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61 ],
+            "SRC_EN": [ "1" ]
+          }
+        },
+        "$specify$91": {
+          "hide_name": 1,
+          "type": "$specrule",
+          "parameters": {
+            "DST_PEN": "1",
+            "DST_POL": "1",
+            "DST_WIDTH": "00000000000000000000000000000001",
+            "SRC_PEN": "0",
+            "SRC_POL": "0",
+            "SRC_WIDTH": "00000000000000000000000000001011",
+            "TYPE": "$setup",
+            "T_LIMIT2_MAX": "00000000000000000000000000000000",
+            "T_LIMIT2_MIN": "00000000000000000000000000000000",
+            "T_LIMIT2_TYP": "00000000000000000000000000000000",
+            "T_LIMIT_MAX": "00000000000000000000000011001011",
+            "T_LIMIT_MIN": "00000000000000000000000011001011",
+            "T_LIMIT_TYP": "00000000000000000000000011001011"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1595.3-1595.52"
+          },
+          "port_directions": {
+            "DST": "input",
+            "DST_EN": "output",
+            "SRC": "input",
+            "SRC_EN": "output"
+          },
+          "connections": {
+            "DST": [ 18 ],
+            "DST_EN": [ 79 ],
+            "SRC": [ 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31 ],
+            "SRC_EN": [ "1" ]
+          }
+        },
+        "$specify$92": {
+          "hide_name": 1,
+          "type": "$specrule",
+          "parameters": {
+            "DST_PEN": "1",
+            "DST_POL": "1",
+            "DST_WIDTH": "00000000000000000000000000000001",
+            "SRC_PEN": "0",
+            "SRC_POL": "0",
+            "SRC_WIDTH": "00000000000000000000000000000001",
+            "TYPE": "$setup",
+            "T_LIMIT2_MAX": "00000000000000000000000000000000",
+            "T_LIMIT2_MIN": "00000000000000000000000000000000",
+            "T_LIMIT2_TYP": "00000000000000000000000000000000",
+            "T_LIMIT_MAX": "00000000000000000000000100001011",
+            "T_LIMIT_MIN": "00000000000000000000000100001011",
+            "T_LIMIT_TYP": "00000000000000000000000100001011"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1597.3-1597.36"
+          },
+          "port_directions": {
+            "DST": "input",
+            "DST_EN": "output",
+            "SRC": "input",
+            "SRC_EN": "output"
+          },
+          "connections": {
+            "DST": [ 18 ],
+            "DST_EN": [ "1" ],
+            "SRC": [ 19 ],
+            "SRC_EN": [ "1" ]
+          }
+        },
+        "$specify$93": {
+          "hide_name": 1,
+          "type": "$specrule",
+          "parameters": {
+            "DST_PEN": "1",
+            "DST_POL": "1",
+            "DST_WIDTH": "00000000000000000000000000000001",
+            "SRC_PEN": "0",
+            "SRC_POL": "0",
+            "SRC_WIDTH": "00000000000000000000000000000001",
+            "TYPE": "$setup",
+            "T_LIMIT2_MAX": "00000000000000000000000000000000",
+            "T_LIMIT2_MIN": "00000000000000000000000000000000",
+            "T_LIMIT2_TYP": "00000000000000000000000000000000",
+            "T_LIMIT_MAX": "00000000000000000000000001100010",
+            "T_LIMIT_MIN": "00000000000000000000000001100010",
+            "T_LIMIT_TYP": "00000000000000000000000001100010"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1599.3-1599.32"
+          },
+          "port_directions": {
+            "DST": "input",
+            "DST_EN": "output",
+            "SRC": "input",
+            "SRC_EN": "output"
+          },
+          "connections": {
+            "DST": [ 18 ],
+            "DST_EN": [ "1" ],
+            "SRC": [ 20 ],
+            "SRC_EN": [ "1" ]
+          }
+        },
+        "$specify$94": {
+          "hide_name": 1,
+          "type": "$specrule",
+          "parameters": {
+            "DST_PEN": "1",
+            "DST_POL": "1",
+            "DST_WIDTH": "00000000000000000000000000000001",
+            "SRC_PEN": "0",
+            "SRC_POL": "0",
+            "SRC_WIDTH": "00000000000000000000000000001011",
+            "TYPE": "$setup",
+            "T_LIMIT2_MAX": "00000000000000000000000000000000",
+            "T_LIMIT2_MIN": "00000000000000000000000000000000",
+            "T_LIMIT2_TYP": "00000000000000000000000000000000",
+            "T_LIMIT_MAX": "00000000000000000000000011100000",
+            "T_LIMIT_MIN": "00000000000000000000000011100000",
+            "T_LIMIT_TYP": "00000000000000000000000011100000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1601.3-1601.52"
+          },
+          "port_directions": {
+            "DST": "input",
+            "DST_EN": "output",
+            "SRC": "input",
+            "SRC_EN": "output"
+          },
+          "connections": {
+            "DST": [ 32 ],
+            "DST_EN": [ 80 ],
+            "SRC": [ 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45 ],
+            "SRC_EN": [ "1" ]
+          }
+        },
+        "$specify$95": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -6533,7 +6707,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$101": {
+        "$specify$96": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -6568,7 +6742,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$102": {
+        "$specify$97": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -6603,7 +6777,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$103": {
+        "$specify$98": {
           "hide_name": 1,
           "type": "$specify3",
           "parameters": {
@@ -6639,206 +6813,31 @@
             "EN": [ "1" ],
             "SRC": [ 18 ]
           }
-        },
-        "$specify$95": {
-          "hide_name": 1,
-          "type": "$specrule",
-          "parameters": {
-            "DST_PEN": "1",
-            "DST_POL": "1",
-            "DST_WIDTH": "00000000000000000000000000000001",
-            "SRC_PEN": "0",
-            "SRC_POL": "0",
-            "SRC_WIDTH": "00000000000000000000000000010000",
-            "TYPE": "$setup",
-            "T_LIMIT2_MAX": "00000000000000000000000000000000",
-            "T_LIMIT2_MIN": "00000000000000000000000000000000",
-            "T_LIMIT2_TYP": "00000000000000000000000000000000",
-            "T_LIMIT_MAX": "00000000000000000000000100010010",
-            "T_LIMIT_MIN": "00000000000000000000000100010010",
-            "T_LIMIT_TYP": "00000000000000000000000100010010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1593.3-1593.51"
-          },
-          "port_directions": {
-            "DST": "input",
-            "DST_EN": "output",
-            "SRC": "input",
-            "SRC_EN": "output"
-          },
-          "connections": {
-            "DST": [ 32 ],
-            "DST_EN": [ 78 ],
-            "SRC": [ 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61 ],
-            "SRC_EN": [ "1" ]
-          }
-        },
-        "$specify$96": {
-          "hide_name": 1,
-          "type": "$specrule",
-          "parameters": {
-            "DST_PEN": "1",
-            "DST_POL": "1",
-            "DST_WIDTH": "00000000000000000000000000000001",
-            "SRC_PEN": "0",
-            "SRC_POL": "0",
-            "SRC_WIDTH": "00000000000000000000000000001011",
-            "TYPE": "$setup",
-            "T_LIMIT2_MAX": "00000000000000000000000000000000",
-            "T_LIMIT2_MIN": "00000000000000000000000000000000",
-            "T_LIMIT2_TYP": "00000000000000000000000000000000",
-            "T_LIMIT_MAX": "00000000000000000000000011001011",
-            "T_LIMIT_MIN": "00000000000000000000000011001011",
-            "T_LIMIT_TYP": "00000000000000000000000011001011"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1595.3-1595.52"
-          },
-          "port_directions": {
-            "DST": "input",
-            "DST_EN": "output",
-            "SRC": "input",
-            "SRC_EN": "output"
-          },
-          "connections": {
-            "DST": [ 18 ],
-            "DST_EN": [ 79 ],
-            "SRC": [ 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31 ],
-            "SRC_EN": [ "1" ]
-          }
-        },
-        "$specify$97": {
-          "hide_name": 1,
-          "type": "$specrule",
-          "parameters": {
-            "DST_PEN": "1",
-            "DST_POL": "1",
-            "DST_WIDTH": "00000000000000000000000000000001",
-            "SRC_PEN": "0",
-            "SRC_POL": "0",
-            "SRC_WIDTH": "00000000000000000000000000000001",
-            "TYPE": "$setup",
-            "T_LIMIT2_MAX": "00000000000000000000000000000000",
-            "T_LIMIT2_MIN": "00000000000000000000000000000000",
-            "T_LIMIT2_TYP": "00000000000000000000000000000000",
-            "T_LIMIT_MAX": "00000000000000000000000100001011",
-            "T_LIMIT_MIN": "00000000000000000000000100001011",
-            "T_LIMIT_TYP": "00000000000000000000000100001011"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1597.3-1597.36"
-          },
-          "port_directions": {
-            "DST": "input",
-            "DST_EN": "output",
-            "SRC": "input",
-            "SRC_EN": "output"
-          },
-          "connections": {
-            "DST": [ 18 ],
-            "DST_EN": [ "1" ],
-            "SRC": [ 19 ],
-            "SRC_EN": [ "1" ]
-          }
-        },
-        "$specify$98": {
-          "hide_name": 1,
-          "type": "$specrule",
-          "parameters": {
-            "DST_PEN": "1",
-            "DST_POL": "1",
-            "DST_WIDTH": "00000000000000000000000000000001",
-            "SRC_PEN": "0",
-            "SRC_POL": "0",
-            "SRC_WIDTH": "00000000000000000000000000000001",
-            "TYPE": "$setup",
-            "T_LIMIT2_MAX": "00000000000000000000000000000000",
-            "T_LIMIT2_MIN": "00000000000000000000000000000000",
-            "T_LIMIT2_TYP": "00000000000000000000000000000000",
-            "T_LIMIT_MAX": "00000000000000000000000001100010",
-            "T_LIMIT_MIN": "00000000000000000000000001100010",
-            "T_LIMIT_TYP": "00000000000000000000000001100010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1599.3-1599.32"
-          },
-          "port_directions": {
-            "DST": "input",
-            "DST_EN": "output",
-            "SRC": "input",
-            "SRC_EN": "output"
-          },
-          "connections": {
-            "DST": [ 18 ],
-            "DST_EN": [ "1" ],
-            "SRC": [ 20 ],
-            "SRC_EN": [ "1" ]
-          }
-        },
-        "$specify$99": {
-          "hide_name": 1,
-          "type": "$specrule",
-          "parameters": {
-            "DST_PEN": "1",
-            "DST_POL": "1",
-            "DST_WIDTH": "00000000000000000000000000000001",
-            "SRC_PEN": "0",
-            "SRC_POL": "0",
-            "SRC_WIDTH": "00000000000000000000000000001011",
-            "TYPE": "$setup",
-            "T_LIMIT2_MAX": "00000000000000000000000000000000",
-            "T_LIMIT2_MIN": "00000000000000000000000000000000",
-            "T_LIMIT2_TYP": "00000000000000000000000000000000",
-            "T_LIMIT_MAX": "00000000000000000000000011100000",
-            "T_LIMIT_MIN": "00000000000000000000000011100000",
-            "T_LIMIT_TYP": "00000000000000000000000011100000"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1601.3-1601.52"
-          },
-          "port_directions": {
-            "DST": "input",
-            "DST_EN": "output",
-            "SRC": "input",
-            "SRC_EN": "output"
-          },
-          "connections": {
-            "DST": [ 32 ],
-            "DST_EN": [ 80 ],
-            "SRC": [ 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45 ],
-            "SRC_EN": [ "1" ]
-          }
         }
       },
       "netnames": {
-        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1593$250_Y": {
+        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1593$245_Y": {
           "hide_name": 1,
           "bits": [ 78 ],
           "attributes": {
             "src": "/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1593.33-1593.44"
           }
         },
-        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1595$251_Y": {
+        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1595$246_Y": {
           "hide_name": 1,
           "bits": [ 79 ],
           "attributes": {
             "src": "/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1595.34-1595.45"
           }
         },
-        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1601$252_Y": {
+        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1601$247_Y": {
           "hide_name": 1,
           "bits": [ 80 ],
           "attributes": {
             "src": "/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1601.34-1601.45"
           }
         },
-        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1605$253_Y": {
+        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1605$248_Y": {
           "hide_name": 1,
           "bits": [ 81 ],
           "attributes": {
@@ -7003,7 +7002,7 @@
         }
       },
       "cells": {
-        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1729$254": {
+        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1729$249": {
           "hide_name": 1,
           "type": "$logic_and",
           "parameters": {
@@ -7027,7 +7026,7 @@
             "Y": [ 78 ]
           }
         },
-        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1731$255": {
+        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1731$250": {
           "hide_name": 1,
           "type": "$logic_and",
           "parameters": {
@@ -7051,7 +7050,7 @@
             "Y": [ 79 ]
           }
         },
-        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1737$256": {
+        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1737$251": {
           "hide_name": 1,
           "type": "$logic_and",
           "parameters": {
@@ -7075,7 +7074,7 @@
             "Y": [ 80 ]
           }
         },
-        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1741$257": {
+        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1741$252": {
           "hide_name": 1,
           "type": "$logic_and",
           "parameters": {
@@ -7099,42 +7098,7 @@
             "Y": [ 81 ]
           }
         },
-        "$specify$104": {
-          "hide_name": 1,
-          "type": "$specrule",
-          "parameters": {
-            "DST_PEN": "1",
-            "DST_POL": "1",
-            "DST_WIDTH": "00000000000000000000000000000001",
-            "SRC_PEN": "0",
-            "SRC_POL": "0",
-            "SRC_WIDTH": "00000000000000000000000000010000",
-            "TYPE": "$setup",
-            "T_LIMIT2_MAX": "00000000000000000000000000000000",
-            "T_LIMIT2_MIN": "00000000000000000000000000000000",
-            "T_LIMIT2_TYP": "00000000000000000000000000000000",
-            "T_LIMIT_MAX": "00000000000000000000000100010010",
-            "T_LIMIT_MIN": "00000000000000000000000100010010",
-            "T_LIMIT_TYP": "00000000000000000000000100010010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1729.3-1729.51"
-          },
-          "port_directions": {
-            "DST": "input",
-            "DST_EN": "output",
-            "SRC": "input",
-            "SRC_EN": "output"
-          },
-          "connections": {
-            "DST": [ 32 ],
-            "DST_EN": [ 78 ],
-            "SRC": [ 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61 ],
-            "SRC_EN": [ "1" ]
-          }
-        },
-        "$specify$105": {
+        "$specify$100": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -7169,7 +7133,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$106": {
+        "$specify$101": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -7204,7 +7168,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$107": {
+        "$specify$102": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -7239,7 +7203,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$108": {
+        "$specify$103": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -7274,7 +7238,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$109": {
+        "$specify$104": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -7309,7 +7273,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$110": {
+        "$specify$105": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -7344,7 +7308,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$111": {
+        "$specify$106": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -7379,7 +7343,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$112": {
+        "$specify$107": {
           "hide_name": 1,
           "type": "$specify3",
           "parameters": {
@@ -7415,31 +7379,66 @@
             "EN": [ "1" ],
             "SRC": [ 18 ]
           }
+        },
+        "$specify$99": {
+          "hide_name": 1,
+          "type": "$specrule",
+          "parameters": {
+            "DST_PEN": "1",
+            "DST_POL": "1",
+            "DST_WIDTH": "00000000000000000000000000000001",
+            "SRC_PEN": "0",
+            "SRC_POL": "0",
+            "SRC_WIDTH": "00000000000000000000000000010000",
+            "TYPE": "$setup",
+            "T_LIMIT2_MAX": "00000000000000000000000000000000",
+            "T_LIMIT2_MIN": "00000000000000000000000000000000",
+            "T_LIMIT2_TYP": "00000000000000000000000000000000",
+            "T_LIMIT_MAX": "00000000000000000000000100010010",
+            "T_LIMIT_MIN": "00000000000000000000000100010010",
+            "T_LIMIT_TYP": "00000000000000000000000100010010"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1729.3-1729.51"
+          },
+          "port_directions": {
+            "DST": "input",
+            "DST_EN": "output",
+            "SRC": "input",
+            "SRC_EN": "output"
+          },
+          "connections": {
+            "DST": [ 32 ],
+            "DST_EN": [ 78 ],
+            "SRC": [ 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61 ],
+            "SRC_EN": [ "1" ]
+          }
         }
       },
       "netnames": {
-        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1729$254_Y": {
+        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1729$249_Y": {
           "hide_name": 1,
           "bits": [ 78 ],
           "attributes": {
             "src": "/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1729.33-1729.44"
           }
         },
-        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1731$255_Y": {
+        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1731$250_Y": {
           "hide_name": 1,
           "bits": [ 79 ],
           "attributes": {
             "src": "/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1731.35-1731.46"
           }
         },
-        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1737$256_Y": {
+        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1737$251_Y": {
           "hide_name": 1,
           "bits": [ 80 ],
           "attributes": {
             "src": "/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1737.34-1737.45"
           }
         },
-        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1741$257_Y": {
+        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1741$252_Y": {
           "hide_name": 1,
           "bits": [ 81 ],
           "attributes": {
@@ -7604,7 +7603,7 @@
         }
       },
       "cells": {
-        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:2001$262": {
+        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:2001$257": {
           "hide_name": 1,
           "type": "$logic_and",
           "parameters": {
@@ -7628,7 +7627,7 @@
             "Y": [ 78 ]
           }
         },
-        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:2003$263": {
+        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:2003$258": {
           "hide_name": 1,
           "type": "$logic_and",
           "parameters": {
@@ -7652,7 +7651,7 @@
             "Y": [ 79 ]
           }
         },
-        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:2009$264": {
+        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:2009$259": {
           "hide_name": 1,
           "type": "$logic_and",
           "parameters": {
@@ -7676,7 +7675,7 @@
             "Y": [ 80 ]
           }
         },
-        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:2013$265": {
+        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:2013$260": {
           "hide_name": 1,
           "type": "$logic_and",
           "parameters": {
@@ -7700,7 +7699,7 @@
             "Y": [ 81 ]
           }
         },
-        "$specify$122": {
+        "$specify$117": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -7735,7 +7734,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$123": {
+        "$specify$118": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -7770,7 +7769,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$124": {
+        "$specify$119": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -7805,7 +7804,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$125": {
+        "$specify$120": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -7840,7 +7839,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$126": {
+        "$specify$121": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -7875,7 +7874,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$127": {
+        "$specify$122": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -7910,7 +7909,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$128": {
+        "$specify$123": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -7945,7 +7944,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$129": {
+        "$specify$124": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -7980,7 +7979,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$130": {
+        "$specify$125": {
           "hide_name": 1,
           "type": "$specify3",
           "parameters": {
@@ -8019,28 +8018,28 @@
         }
       },
       "netnames": {
-        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:2001$262_Y": {
+        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:2001$257_Y": {
           "hide_name": 1,
           "bits": [ 78 ],
           "attributes": {
             "src": "/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:2001.34-2001.45"
           }
         },
-        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:2003$263_Y": {
+        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:2003$258_Y": {
           "hide_name": 1,
           "bits": [ 79 ],
           "attributes": {
             "src": "/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:2003.35-2003.46"
           }
         },
-        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:2009$264_Y": {
+        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:2009$259_Y": {
           "hide_name": 1,
           "bits": [ 80 ],
           "attributes": {
             "src": "/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:2009.35-2009.46"
           }
         },
-        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:2013$265_Y": {
+        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:2013$260_Y": {
           "hide_name": 1,
           "bits": [ 81 ],
           "attributes": {
@@ -8205,7 +8204,7 @@
         }
       },
       "cells": {
-        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1865$258": {
+        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1865$253": {
           "hide_name": 1,
           "type": "$logic_and",
           "parameters": {
@@ -8229,7 +8228,7 @@
             "Y": [ 78 ]
           }
         },
-        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1867$259": {
+        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1867$254": {
           "hide_name": 1,
           "type": "$logic_and",
           "parameters": {
@@ -8253,7 +8252,7 @@
             "Y": [ 79 ]
           }
         },
-        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1873$260": {
+        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1873$255": {
           "hide_name": 1,
           "type": "$logic_and",
           "parameters": {
@@ -8277,7 +8276,7 @@
             "Y": [ 80 ]
           }
         },
-        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1877$261": {
+        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1877$256": {
           "hide_name": 1,
           "type": "$logic_and",
           "parameters": {
@@ -8301,7 +8300,7 @@
             "Y": [ 81 ]
           }
         },
-        "$specify$113": {
+        "$specify$108": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -8336,7 +8335,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$114": {
+        "$specify$109": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -8371,7 +8370,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$115": {
+        "$specify$110": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -8406,7 +8405,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$116": {
+        "$specify$111": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -8441,7 +8440,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$117": {
+        "$specify$112": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -8476,7 +8475,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$118": {
+        "$specify$113": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -8511,7 +8510,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$119": {
+        "$specify$114": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -8546,7 +8545,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$120": {
+        "$specify$115": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -8581,7 +8580,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$121": {
+        "$specify$116": {
           "hide_name": 1,
           "type": "$specify3",
           "parameters": {
@@ -8620,28 +8619,28 @@
         }
       },
       "netnames": {
-        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1865$258_Y": {
+        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1865$253_Y": {
           "hide_name": 1,
           "bits": [ 78 ],
           "attributes": {
             "src": "/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1865.34-1865.45"
           }
         },
-        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1867$259_Y": {
+        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1867$254_Y": {
           "hide_name": 1,
           "bits": [ 79 ],
           "attributes": {
             "src": "/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1867.34-1867.45"
           }
         },
-        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1873$260_Y": {
+        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1873$255_Y": {
           "hide_name": 1,
           "bits": [ 80 ],
           "attributes": {
             "src": "/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1873.35-1873.46"
           }
         },
-        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1877$261_Y": {
+        "$logic_and$/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:1877$256_Y": {
           "hide_name": 1,
           "bits": [ 81 ],
           "attributes": {
@@ -9660,19 +9659,15 @@
         }
       }
     },
-    "main": {
+    "top": {
       "attributes": {
         "top": "00000000000000000000000000000001",
-        "src": "main.v:1.1-16.10"
+        "src": "ice40-clk-passthrough.v:1.1-63.10"
       },
       "ports": {
-        "led": {
-          "direction": "output",
-          "bits": [ "x" ]
-        },
         "clk": {
-          "direction": "output",
-          "bits": [ "x" ]
+          "direction": "input",
+          "bits": [ 2 ]
         },
         "clk_out": {
           "direction": "output",
@@ -9682,56 +9677,18 @@
       "cells": {
       },
       "netnames": {
-        "Clk": {
-          "hide_name": 0,
-          "bits": [ "x" ],
-          "attributes": {
-            "src": "main.v:13.14-13.17"
-          }
-        },
         "clk": {
           "hide_name": 0,
-          "bits": [ "x" ],
+          "bits": [ 2 ],
           "attributes": {
-            "src": "main.v:6.17-6.20"
+            "src": "ice40-clk-passthrough.v:3.16-3.19"
           }
         },
         "clk_out": {
           "hide_name": 0,
           "bits": [ "x" ],
           "attributes": {
-            "src": "main.v:7.17-7.24"
-          }
-        },
-        "clk_pre_scale_i.acc": {
-          "hide_name": 0,
-          "bits": [ "x", "x", "x", "x" ],
-          "attributes": {
-            "hdlname": "clk_pre_scale_i acc",
-            "src": "main.v:11.19-14.6|clk_pre_scale.v:9.15-9.18"
-          }
-        },
-        "clk_pre_scale_i.clk": {
-          "hide_name": 0,
-          "bits": [ "x" ],
-          "attributes": {
-            "hdlname": "clk_pre_scale_i clk",
-            "src": "main.v:11.19-14.6|clk_pre_scale.v:3.16-3.19"
-          }
-        },
-        "clk_pre_scale_i.scaled_clk": {
-          "hide_name": 0,
-          "bits": [ "x" ],
-          "attributes": {
-            "hdlname": "clk_pre_scale_i scaled_clk",
-            "src": "main.v:11.19-14.6|clk_pre_scale.v:6.16-6.26"
-          }
-        },
-        "led": {
-          "hide_name": 0,
-          "bits": [ "x" ],
-          "attributes": {
-            "src": "main.v:3.17-3.20"
+            "src": "ice40-clk-passthrough.v:6.17-6.24"
           }
         }
       }
