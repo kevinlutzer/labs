@@ -3740,7 +3740,6 @@
     "SB_HFOSC": {
       "attributes": {
         "blackbox": "00000000000000000000000000000001",
-        "cells_not_processed": "00000000000000000000000000000001",
         "src": "/Users/kevinlutzer/.apio/packages/tools-oss-cad-suite/libexec/../share/yosys/ice40/cells_sim.v:2596.1-2613.10"
       },
       "parameter_default_values": {
@@ -9662,33 +9661,84 @@
     "top": {
       "attributes": {
         "top": "00000000000000000000000000000001",
-        "src": "ice40-clk-passthrough.v:1.1-63.10"
+        "src": "ice40-clk-passthrough.v:1.1-72.10"
       },
       "ports": {
-        "clk": {
-          "direction": "input",
-          "bits": [ 2 ]
-        },
         "clk_out": {
           "direction": "output",
-          "bits": [ "x" ]
+          "bits": [ 2 ]
         }
       },
       "cells": {
+        "OSCInst0": {
+          "hide_name": 0,
+          "type": "SB_HFOSC",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "ice40-clk-passthrough.v:22.14-27.6"
+          },
+          "port_directions": {
+            "CLKHF": "output",
+            "CLKHFEN": "input",
+            "CLKHFPU": "input"
+          },
+          "connections": {
+            "CLKHF": [ 3 ],
+            "CLKHFEN": [ "1" ],
+            "CLKHFPU": [ "1" ]
+          }
+        },
+        "uut": {
+          "hide_name": 0,
+          "type": "SB_PLL40_CORE",
+          "parameters": {
+            "DELAY_ADJUSTMENT_MODE_FEEDBACK": "DYNAMIC",
+            "DELAY_ADJUSTMENT_MODE_RELATIVE": "DYNAMIC",
+            "DIVF": "1111000",
+            "DIVQ": "000",
+            "DIVR": "0000",
+            "ENABLE_ICEGATE": "0",
+            "FDA_FEEDBACK": "1111",
+            "FDA_RELATIVE": "1111",
+            "FEEDBACK_PATH": "EXTERNAL",
+            "FILTER_RANGE": "000",
+            "PLLOUT_SELECT": "SHIFTREG_0deg",
+            "SHIFTREG_DIV_MODE": "0",
+            "TEST_MODE": "0"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "ice40-clk-passthrough.v:58.4-71.3"
+          },
+          "port_directions": {
+            "BYPASS": "input",
+            "PLLOUTGLOBAL": "output",
+            "REFERENCECLK": "input",
+            "RESETB": "input"
+          },
+          "connections": {
+            "BYPASS": [ "1" ],
+            "PLLOUTGLOBAL": [ 2 ],
+            "REFERENCECLK": [ 3 ],
+            "RESETB": [ "1" ]
+          }
+        }
       },
       "netnames": {
-        "clk": {
+        "clk_out": {
           "hide_name": 0,
           "bits": [ 2 ],
           "attributes": {
-            "src": "ice40-clk-passthrough.v:3.16-3.19"
+            "src": "ice40-clk-passthrough.v:3.17-3.24"
           }
         },
-        "clk_out": {
+        "sys_HFOSC": {
           "hide_name": 0,
-          "bits": [ "x" ],
+          "bits": [ 3 ],
           "attributes": {
-            "src": "ice40-clk-passthrough.v:6.17-6.24"
+            "src": "ice40-clk-passthrough.v:20.10-20.19"
           }
         }
       }

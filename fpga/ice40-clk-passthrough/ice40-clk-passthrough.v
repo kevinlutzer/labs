@@ -1,10 +1,6 @@
 module top(
-    // input
-    input wire clk,
-
-    // output
+    // input wire clk,
     output wire clk_out
-
 	// input   REFERENCECLK,
 	// output  PLLOUTCORE,
 	// output  PLLOUTGLOBAL,
@@ -20,44 +16,57 @@ module top(
 	// input   SDI,
 	// input   SCLK
 );
+
+    wire sys_HFOSC;
+
+    SB_HFOSC OSCInst0
+    (
+        .CLKHFEN   (1'b1),
+        .CLKHFPU   (1'b1),
+        .CLKHF     (sys_HFOSC)   // 48 MHz
+    );
+
+    // assign clk_out = sys_HFOSC;
+
+
 	SB_PLL40_CORE #(
 		.FEEDBACK_PATH("DELAY"),
-		// .FEEDBACK_PATH("SIMPLE"),
-		// .FEEDBACK_PATH("PHASE_AND_DELAY"),
-		// .FEEDBACK_PATH("EXTERNAL"),
+		.FEEDBACK_PATH("SIMPLE"),
+		.FEEDBACK_PATH("PHASE_AND_DELAY"),
+		.FEEDBACK_PATH("EXTERNAL"),
 
 		.DELAY_ADJUSTMENT_MODE_FEEDBACK("FIXED"),
-		// .DELAY_ADJUSTMENT_MODE_FEEDBACK("DYNAMIC"),
+		.DELAY_ADJUSTMENT_MODE_FEEDBACK("DYNAMIC"),
 
 		.DELAY_ADJUSTMENT_MODE_RELATIVE("FIXED"),
-		// .DELAY_ADJUSTMENT_MODE_RELATIVE("DYNAMIC"),
+		.DELAY_ADJUSTMENT_MODE_RELATIVE("DYNAMIC"),
 
 		.PLLOUT_SELECT("GENCLK"),
-		// .PLLOUT_SELECT("GENCLK_HALF"),
-		// .PLLOUT_SELECT("SHIFTREG_90deg"),
-		// .PLLOUT_SELECT("SHIFTREG_0deg"),
+		.PLLOUT_SELECT("GENCLK_HALF"),
+		.PLLOUT_SELECT("SHIFTREG_90deg"),
+		.PLLOUT_SELECT("SHIFTREG_0deg"),
 
 		.SHIFTREG_DIV_MODE(1'b0),
 		.FDA_FEEDBACK(4'b1111),
 		.FDA_RELATIVE(4'b1111),
 		.DIVR(4'b0000),
-		.DIVF(7'b0000000),
-		.DIVQ(3'b001),
+		.DIVF(7'b1111000),
+		.DIVQ(3'b000),
 		.FILTER_RANGE(3'b000),
 		.ENABLE_ICEGATE(1'b0),
 		.TEST_MODE(1'b0)
 	) uut (
-		.REFERENCECLK   (clk          ),
+		.REFERENCECLK   (sys_HFOSC   ),
 		// .PLLOUTCORE     (PLLOUTCORE     ),
-		// .PLLOUTGLOBAL   (PLLOUTGLOBAL   ),
-		.EXTFEEDBACK    (1'b1         ),
-		.DYNAMICDELAY   (7'b1000100   ),
+		.PLLOUTGLOBAL   (clk_out   ),
+		// .EXTFEEDBACK    (EXTFEEDBACK    ),
+		// .DYNAMICDELAY   (DYNAMICDELAY   ),
 		// .LOCK           (LOCK           ),
-		.BYPASS         (1'b0         ), // use ppl instead of ref clk
+		.BYPASS         (1'b1         ),
 		.RESETB         (1'b1         ),
-		.LATCHINPUTVALUE(1'b0         ),
+		// .LATCHINPUTVALUE(LATCHINPUTVALUE),
 		// .SDO            (SDO            ),
 		// .SDI            (SDI            ),
-		.SCLK           (clk          )
+		// .SCLK           (SCLK           )
 	);
 endmodule
