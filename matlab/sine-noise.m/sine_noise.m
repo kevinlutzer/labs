@@ -19,5 +19,3 @@ x = [];
     %xdft = fft(x);
     %plot(abs(xdft))
 % end
-
-
