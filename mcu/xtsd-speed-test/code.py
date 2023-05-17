@@ -8,9 +8,9 @@ from digitalio import DigitalInOut, Direction
 from busio import SPI
 from sdcardio import SDCard
 from storage import VfsFat, mount
-from os import listdir
 import time
-
+# from os.path import getsize
+import os
 # led
 led = DigitalInOut(board.LED)
 led.direction = Direction.OUTPUT
@@ -22,9 +22,19 @@ sd = SDCard(spi, board.GP17)
 vfs = VfsFat(sd)
 mount(vfs, '/sd')
 
-f = open("/sd/test.txt", "a+")
+base = "X6}-}Le4YhcGhiD2383yWC&w$m9,,Pwv+QpdEyh3&:K&*3Bt6jX]bb8c!X-R8_RP$hX[cS,$-Y;?3mbFPcLw_ZM92pv2WexRdi?St@:4DeF%)"
+
+# print(dir(os.stat('/sd/test.txt').st_size))
+# print('file size: ', getsize('/sd/test.txt'))
+
+final_str = ""
+for _ in range(0, 60):
+	final_str = final_str + base
+
 while True:
-	f.write("X6}-}Le4YhcGhiD2383yWC&w$m9,,Pwv+QpdEyh3&:K&*3Bt6jX]bb8c!X-R8_RP$hX[cS,$-Y;?3mbFPcLw_ZM92pv2WexRdi?St@:4DeF%)")
-	# print(f.readlines())
-	# print(listdir('/sd'))
-	# time.sleep(1)
+	f = open("/sd/test.txt", "a+")
+	print(os.stat('/sd/test.txt'))
+
+	f.write(final_str)
+	f.flush()
+	f.close()
