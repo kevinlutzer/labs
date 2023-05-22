@@ -1,0 +1,31 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "type": "shell",
+      "command": [
+        "/opt/homebrew/bin/arduino-cli compile -b arduino:mbed_rp2040:pico . --output-dir bin"
+      ],
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "deploy",
+      "type": "shell",
+      "command": [
+        "scp ~/Projects/labs/mcu/rh_rf24_test/bin/* pi@raspberrypi.local:/home/pi/rh_rf24_test",
+      ],
+      "problemMatcher": [],
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      }
+    }
+  ]
+}
