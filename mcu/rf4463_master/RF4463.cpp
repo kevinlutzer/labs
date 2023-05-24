@@ -21,6 +21,7 @@ void RF4463::spiInit()
 
 	// depends on RF4463 spi timing
 	SPI.setBitOrder(MSBFIRST);
+  
 	// too fast may cause error
 	SPI.setClockDivider(SPI_CLOCK_DIV16);
 	SPI.setDataMode(SPI_MODE0);
@@ -36,11 +37,19 @@ bool RF4463::init()
 	pinInit();
 	spiInit();
 
-
 	uint8_t buf[20];
 
 	// reset RF4463
 	powerOnReset();
+
+
+  	// check if RF4463 works
+	if(!checkDevice())
+	{
+		return false;
+	}
+
+
 	// Set RF parameter,like frequency,data rate etc
 	setConfig(RF4463_CONFIGURATION_DATA,sizeof(RF4463_CONFIGURATION_DATA));
 	
@@ -120,15 +129,9 @@ bool RF4463::init()
 	setProperties(RF4463_PROPERTY_PKT_FIELD_4_LENGTH_12_8,8,buf);
 
 	// set max tx power
-    setTxPower(127);
+  setTxPower(127);
 
-	// check if RF4463 works
-	if(!checkDevice())
-	{
-		return false;
-	}
-	
-    return true;
+  return true;
 }
 void RF4463::powerOnReset()
 {
