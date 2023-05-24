@@ -545,15 +545,16 @@ class RF4463
 	///  Clear interrupt
 	///  @return  1 if ok, 0 otherwise
 	bool		clrInterrupts();
-	
-protected:
-	///  Initialise SPI.
-	///  @note Use standard Arduino SPI interface
-	void		spiInit();
+  void		spiInit();
 	///  Initialise other pin.
 	void		pinInit();
 	///  Power on RF4463
 	void		powerOnReset();
+	
+protected:
+	///  Initialise SPI.
+	///  @note Use standard Arduino SPI interface
+
 	///  Enter tx mode
 	void		enterTxMode();
 	///  Enter rx mode

@@ -173,14 +173,27 @@ bool RF4463::checkDevice()
 {
 	uint8_t buf[9];
 	uint16_t partInfo;
-	if(!getCommand(9,RF4463_CMD_PART_INFO,buf))		// read part info to check if 4463 works
-		return false;
+	getCommand(9,RF4463_CMD_PART_INFO,buf);		// read part info to check if 4463 works
 		
 	partInfo=buf[2]<<8|buf[3];
-	if(partInfo!=0x4463)
-	{
+
+  Serial.println("\nbuf: ");
+
+  for(uint8_t i = 0; i < 9; i ++) {
+    Serial.print(buf[i], HEX);
+  }
+
+  Serial.println("\n part info: ");
+  Serial.print(partInfo, HEX);
+  Serial.println("\n");
+  Serial.print(partInfo, HEX);
+  Serial.println("\n");
+
+	if(partInfo != 0x4463){
 		return false;
 	}
+
+  return true;
 }
 bool RF4463::txPacket(uint8_t* sendbuf,uint8_t sendLen)
 {
