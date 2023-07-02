@@ -28,21 +28,25 @@ void setup() {
     Serial.println("Init success!");
   }
 
-
   if(!rf4463.checkDevice()) {
     Serial.println("Check device failed");
   }
   rf4463.rxInit();
 
-  uint8_t buf[] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
-  if(rf4463.getCommand(7,RF4463_CMD_START_RX,buf)) {
-    Serial.println("Got the CMD to setup rx");
+  // uint8_t buf[] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
+  // if(rf4463.getCommand(7,RF4463_CMD_START_RX,buf)) {
+  //   Serial.println("Got the CMD to setup rx");
+  // }
+
+  uint8_t buf[8];
+  if(!rf4463.getProperties(RF4463_PROPERTY_MODEM_RSSI_COMP, 8, buf)) {
+    Serial.println("Failed to get the comp property");
   }
 
   for(uint8_t i =  0; i < sizeof(buf); i = i + 1) {
     Serial.println("Write byte: ");
     Serial.write(i);
-    Serial.write(buf[i]);
+    Serial.print(buf[i], HEX);
   }
 
 }
@@ -51,8 +55,11 @@ void loop()
   if(rf4463.waitnIRQ()) {
     rf4463.clrInterrupts();
     rx_len=rf4463.rxPacket(rx_buf);  // read rx data
+    Serial.println("rx_buff: ");
     Serial.write(rx_buf, rx_len);    // print out by serial
-    Serial.println();
+    Serial.println("rssi: ");
+    Serial.print(rf4463.getRSSI(), DEC);
+    Serial.println("");
     rf4463.rxInit();
   }
 }

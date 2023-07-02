@@ -20,7 +20,7 @@
 #define SEL 10 // 
 
 RF4463 rf4463 = RF4463(IRQ, SDN, SEL);
-unsigned char tx_buf[]={"swwxABCDEFGHIm"};
+unsigned char tx_buf[]={"Hello World"};
 unsigned char val;
 unsigned char flag=0;    //  flag of rx mode
 unsigned char rx_len;
@@ -35,8 +35,9 @@ void setup() {
   else
     Serial.println("Init success!");
 
-  // if(!rf4463.enterStandbyMode())
-  //   Serial.println("Failed to enter standby mode!");
+
+  if(!rf4463.setTxPower(127))
+    Serial.println("Failed to set power to max!");
 }
 
 void loop() {
