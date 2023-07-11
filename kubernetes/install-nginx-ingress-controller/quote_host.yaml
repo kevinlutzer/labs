@@ -8,10 +8,10 @@ metadata:
 spec:
   tls:
      - hosts:
-       - quote.kevin.lutzer.ca
+       - quote.lutzer.ca
        secretName: letsencrypt-nginx-quote
   rules:
-    - host: quote.kevin.lutzer.ca
+    - host: quote.lutzer.ca
       http:
         paths:
         - path: /
