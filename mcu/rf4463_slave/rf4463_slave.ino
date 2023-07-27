@@ -22,6 +22,7 @@ unsigned char rx_buf[20];
 
 void setup() {
   Serial.begin(9600);
+ 
   if(!rf4463.init()) {
     Serial.println("Init fail!");
   } else {

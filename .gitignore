@@ -5,3 +5,8 @@
 *.venv/
 *.code-workspace
 *.sconsign.dblite
+
+#lab specific things
+mcu/rf4463_master/bin/**
+**{sketch_path}
+**/bin/**

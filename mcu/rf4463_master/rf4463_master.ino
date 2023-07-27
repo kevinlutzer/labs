@@ -19,8 +19,10 @@
 #define SDN 9 // 
 #define SEL 10 // 
 
+#define SCL 19
+
 RF4463 rf4463 = RF4463(IRQ, SDN, SEL);
-unsigned char tx_buf[]={"Hello World"};
+unsigned char tx_buf[]={"NEW HELLO WORLD!!!"};
 unsigned char val;
 unsigned char flag=0;    //  flag of rx mode
 unsigned char rx_len;
@@ -28,6 +30,8 @@ unsigned char rx_buf[20];
 uint8_t count = 0;
 
 void setup() {
+  pinMode(SCL, OUTPUT);
+  digitalWrite(SCL,LOW);
   Serial.begin(9600);
 
   if(!rf4463.init())
@@ -41,6 +45,7 @@ void setup() {
 }
 
 void loop() {
+  digitalWrite(SCL,HIGH);
   rf4463.txPacket(tx_buf,sizeof(tx_buf));
 
   Serial.println("tx ");
@@ -48,5 +53,7 @@ void loop() {
   Serial.println("\n");
   count += 1;
 
-  delay(10);
+  digitalWrite(SCL,LOW);
+
+  delay(2000);
 }
