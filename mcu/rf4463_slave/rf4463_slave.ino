@@ -12,22 +12,16 @@
 #include<SPI.h>
  
 RF4463 rf4463;
-unsigned char tx_buf[]={"swwxABCDEFGHIm"};
-unsigned char val;
-unsigned char flag=1;    //  flag of rx mode
 unsigned char rx_len;
 unsigned char rx_buf[20];
 
-#define DEBUG_RF4463
-
 void setup() {
   Serial.begin(9600);
- 
   if(!rf4463.init()) {
     Serial.println("Init fail!");
   } else {
     Serial.println("Init success!");
-  }
+  } 
 
   if(!rf4463.checkDevice()) {
     Serial.println("Check device failed");
@@ -38,25 +32,15 @@ void setup() {
   if(!rf4463.getProperties(RF4463_PROPERTY_MODEM_RSSI_COMP, 8, buf)) {
     Serial.println("Failed to get the comp property");
   }
-
-  Serial.println("Hello World");
-
-  for(uint8_t i =  0; i < sizeof(buf); i = i + 1) {
-    Serial.println("Write byte: ");
-    Serial.write(i);
-    Serial.print(buf[i], HEX);
-  }
-
 }
+
 void loop() 
 {
   if(rf4463.waitnIRQ()) {
     rf4463.clrInterrupts();
     rx_len=rf4463.rxPacket(rx_buf);  // read rx data
-    Serial.println("rx_buff: ");
+    Serial.print("Received: ");
     Serial.write(rx_buf, rx_len);    // print out by serial
-    Serial.println("rssi: ");
-    Serial.print(rf4463.getRSSI() - 137, DEC);
     Serial.println("");
     rf4463.rxInit();
   }
