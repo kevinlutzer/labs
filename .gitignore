@@ -10,3 +10,4 @@
 mcu/rf4463_master/bin/**
 **{sketch_path}
 **/bin/**
+*a.out
