@@ -1,14 +1,20 @@
+# Editor / Vscode
 *.DS_store
-*hardware.bin
-*hardware.out
 *.vscode/
-*.venv/
 *.code-workspace
-*.sconsign.dblite
 
-#lab specific things
+# Python
+*.venv/
+
+# Arduino
 {sketch_path}
-**/bin/**
+
+# C++ / C
 a.out
 **/bin
 *.gch
+
+# Other 
+*hardware.bin
+*hardware.out
+*.sconsign.dblite
