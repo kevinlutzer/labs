@@ -7,7 +7,8 @@
 *.sconsign.dblite
 
 #lab specific things
-mcu/rf4463_master/bin/**
-**{sketch_path}
+{sketch_path}
 **/bin/**
-*a.out
+a.out
+**/bin
+*.gch

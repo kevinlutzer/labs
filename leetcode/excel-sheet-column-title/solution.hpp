@@ -17,16 +17,24 @@ public:
         int val = 2;
     
         string str = "";
+        int carry = 0;
 
         while(columnNumber >= 0) {
 
-            val = columnNumber % base;
-            cout << "Column Number: " << columnNumber << ", Val: " << val << ", divide 26: " << columnNumber / base <<  endl;
+            val = columnNumber % base - carry;
+            carry = 0; 
+
+            cout << "Carry: " << carry << ", Modulo: " << columnNumber % base << ", Column Number: " << columnNumber << ", Val: " << val << ", divide 26: " << columnNumber / base <<  endl;
             columnNumber = columnNumber / base;
 
-            str.push_back(char(val + 64));
+            if (val == 0) {
+                str.push_back('Z');
+                carry = 1;
+            } else {
+                str.push_back(char(val + 64));
+            }
 
-            if (columnNumber == 0) {
+            if (columnNumber == 0 || (columnNumber == 1 && val == 0)) {
                 columnNumber = -1;
             }
         }
