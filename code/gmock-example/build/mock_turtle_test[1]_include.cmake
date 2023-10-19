@@ -1,0 +1,5 @@
+if(EXISTS "/Users/kevinlutzer/Projects/labs/code/gmock-example/build/mock_turtle_test[1]_tests.cmake")
+  include("/Users/kevinlutzer/Projects/labs/code/gmock-example/build/mock_turtle_test[1]_tests.cmake")
+else()
+  add_test(mock_turtle_test_NOT_BUILT mock_turtle_test_NOT_BUILT)
+endif()

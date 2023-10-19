@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/mock_turtle_test.dir/mock_turtle_test.cc.o -o mock_turtle_test  lib/libgtest_main.a lib/libgtest.a 

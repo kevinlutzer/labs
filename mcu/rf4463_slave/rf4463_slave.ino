@@ -1,15 +1,5 @@
-// rf4463_slave.pde
-
-// Caution:RF4463 module can only work under 3.3V
-// please make sure the supply of you board is under 3.3V
-// lora supply will destroy RF4463 module!!
-
-// This code runs in slave mode and  works with rf_4463_master.pde 
-// Flow:receive packet from master->print to serial->reply
-// data of packet is "swwxABCDEFGHIm"
-
-#include<RF4463.h>
-#include<SPI.h>
+#include <rf4463.hpp>
+#include <SPI.h>
  
 RF4463 rf4463;
 unsigned char rx_len;
@@ -17,6 +7,11 @@ unsigned char rx_buf[20];
 
 void setup() {
   Serial.begin(9600);
+  while(true) {
+    Serial.println("HELLO WORLD");
+    delay(500);
+  }
+
   if(!rf4463.init()) {
     Serial.println("Init fail!");
   } else {
