@@ -7,10 +7,6 @@ unsigned char rx_buf[20];
 
 void setup() {
   Serial.begin(9600);
-  while(true) {
-    Serial.println("HELLO WORLD");
-    delay(500);
-  }
 
   if(!rf4463.init()) {
     Serial.println("Init fail!");
