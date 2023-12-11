@@ -15,6 +15,8 @@ func makeList(nums []int) *ListNode {
 		nl := &ListNode{Val: nums[i], Next: l}
 		l = nl
 	}
+	nums 
+	for 
 
 	return l
 }

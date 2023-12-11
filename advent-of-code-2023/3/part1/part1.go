@@ -49,7 +49,8 @@ func hasAdjSymbol(x int, y int) bool {
 				continue
 			}
 
-			if isSymbol(xDiff, yDiff) {
+			v := data[yDiff][xDiff]
+			if v != '.' && !unicode.IsNumber(v) {
 				return true
 			}
 		}
@@ -58,12 +59,7 @@ func hasAdjSymbol(x int, y int) bool {
 	return false
 }
 
-func isSymbol(x int, y int) bool {
-	_rune := data[y][x]
-	return !unicode.IsNumber(_rune) && _rune != '.'
-}
-
-func getNumberAtCoor(x int, y int) (int, int) {
+func getNumberAtCoor(x int, y int) (int, int, int) {
 	var _rune rune
 	digits := []int{}
 
@@ -77,15 +73,16 @@ func getNumberAtCoor(x int, y int) (int, int) {
 		break
 	}
 
-	for start < (len(data[y])) {
-		_rune = data[y][start]
+	pos := start
+	for pos < (len(data[y])) {
+		_rune = data[y][pos]
 		if unicode.IsNumber(_rune) {
 			digits = append(digits, int(_rune-48))
 		} else {
 			break
 		}
 
-		start += 1
+		pos += 1
 	}
 
 	val := 0
@@ -93,31 +90,41 @@ func getNumberAtCoor(x int, y int) (int, int) {
 		val += digit * int(math.Pow(10, (float64(len(digits)-i-1))))
 	}
 
-	return val, len(digits)
+	return val, len(digits), start
 }
 
 func main() {
 
-	// m := make(map[string]int)
+	m := make(map[string]map[string]int)
 
 	sum := 0
 	for y, row := range data {
 		for x, _rune := range row {
-			offset := 0
-
-			if unicode.IsNumber(_rune) {
-				if h := hasAdjSymbol(x+offset, y); h {
-					fmt.Println("Found symbol at", x+offset, y)
-					val, l := getNumberAtCoor(x+offset, y)
-					offset += l
-					fmt.Printf("Value, new x: %d, %+v\n", x, val)
-					fmt.Println()
-					// m[fmt.Sprintf("%d,%d", x-start, y)] = val
+			if _rune == '*' {
+				// star map
+				starKey := fmt.Sprintf("%d,%d", x, y)
+				starMap, ok := m[starKey]
+				if !ok {
+					starMap = make(map[string]int)
 				}
+				numCoor := hasAdjSymbol(x, y)
+				for _, coor := range numCoor {
+					xDiff := coor[0]
+					yDiff := coor[1]
+					val, _, start := getNumberAtCoor(xDiff, yDiff)
+					valuekey := fmt.Sprintf("%d,%d", start, yDiff)
+					if _, ok := starMap[valuekey]; !ok {
+						starMap[valuekey] = val
+					}
+				}
+				m[starKey] = starMap
 			}
 
 		}
 	}
 
+	for _, val := range m {
+		sum += val
+	}
 	fmt.Println(sum)
 }
