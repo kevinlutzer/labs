@@ -32,13 +32,10 @@ void powerOnReset()
   delay(1000);						// wait for RF4463 stable
 
 	// send power up command
-  uint8_t buf[]={0x02, 0x01, 0x00, 0x01, 0xC9, 0xC3, 0x80};
+  uint8_t tx_buf[]={0x02, 0x01, 0x00, 0x01, 0xC9, 0xC3, 0x80};
+  SPI1.transfer(tx_buf, 7);
 
-  // digitalWrite(CS, LOW);
-  SPI1.transfer(buf, 7);
-  // digitalWrite(CS, HIGH);
-
-	delay(200);
+  delay(200);
 }
 
 bool checkCTS()
@@ -47,35 +44,58 @@ bool checkCTS()
 	timeOutCnt=RF4463_CTS_TIMEOUT;
 
   Serial.println("Send request");
-  
-  uint8_t rx = SPI1.transfer(RF4463_CMD_READ_BUF);
+
+  uint8_t rx = 0;
   uint16_t count = 0;
-
-  while( rx != RF4463_CTS_REPLY && count < RF4463_CTS_TIMEOUT ) {
+  do {
     digitalWrite(CS, LOW);
-
     rx = SPI1.transfer(RF4463_CMD_READ_BUF);
+    // digitalWrite(CS, HIGH);
+    count ++;
+  } while ( rx != RF4463_CTS_REPLY && count < RF4463_CTS_TIMEOUT );
 
-    // delayMicroseconds(1);
-    digitalWrite(CS, HIGH);
-    // delayMicroseconds(1);
-  }
+  Serial.printf("RX Value received %d after count %d", rx, count);
 
-  digitalWrite(CS, HIGH);
-  
   return rx == RF4463_CTS_REPLY;
 }
 
-// bool checkDevice()
-// {
-// 	uint8_t buf[9];
-// 	uint16_t partInfo;
-// 	getCommand(9,RF4463_CMD_PART_INFO,buf);		// read part info to check if 4463 works
-		
-// 	partInfo=buf[2]<<8|buf[3];
+bool getCommand(uint8_t length,uint8_t command, uint8_t * paraBuf) {
 
-// 	return partInfo == 0x4463;
-// }
+	Serial.printf("Command response: %d \n", SPI1.transfer(command));				// set command to read 
+	
+  // check if RF4463 is ready 
+	if(!checkCTS())	{
+    return false;  
+  }
+
+  // Serial.printf("Read Buf: %d \n", SPI1.transfer(RF4463_CMD_READ_BUF));
+	// digitalWrite(CS, LOW);
+
+  uint8_t * _txbuf = (uint8_t * ) malloc(length * sizeof(uint8_t));
+  memset(_txbuf, 0x00, length);
+  _txbuf[0] = RF4463_CMD_READ_BUF;
+
+	SPI1.transfer(_txbuf, paraBuf, length);		// read parameters
+	digitalWrite(CS, HIGH);
+
+  free(_txbuf);
+  return true;
+}
+
+bool checkDevice()
+{
+	uint8_t buf[9];
+	uint16_t partInfo;
+
+	getCommand(9, RF4463_CMD_PART_INFO, buf);		// read part info to check if 4463 works
+		
+  for (int i = 0; i < 9; i ++) {
+    Serial.printf("Buf[%d]=%d\n", i, buf[i]);
+  }
+
+	partInfo=buf[1]<<8|buf[2];
+	return partInfo == 0x4463;
+}
 
 void setup() {
   pinMode(LED, OUTPUT);
@@ -101,10 +121,12 @@ void setup() {
   // Init the module
   powerOnReset();
 
-  delay(1000);
+  attachInterrupt(6, )
+
+  delay(5000);
 
   // heck if RF4463 works
-	if(!checkCTS()){
+	if(!checkDevice()){
     Serial.println("Failed");
 	} else {
     Serial.println("Success");
