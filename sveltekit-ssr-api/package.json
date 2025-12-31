@@ -12,6 +12,7 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
 	},
 	"dependencies": {
+		"@sveltejs/adapter-vercel": "^6.2.0",
 		"openai": "^6.15.0"
 	},
 	"devDependencies": {
